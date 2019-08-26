@@ -1,0 +1,25 @@
+.main_grid{
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 200px 80px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 200px;
+}
+
+.search_bar{
+  padding: 20px;
+
+}
+
+.logo{
+  align-self: center;
+}
+
+input{
+  width: 360px;
+}
+
+body {
+  height: 1000px;
+}
