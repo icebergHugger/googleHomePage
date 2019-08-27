@@ -5,15 +5,22 @@
     <link rel="stylesheet" type="text/css" href="./homepage.css"/>
   </head>
   <body>
+    <ul>
+      <li><a href="./nowhere.html">Home</a></li>
+      <li><a href="./nowhere.html">News</a></li>
+      <li><a href="./nowhere.html">Contact</a></li>
+      <li><a href="./nowhere.html">About</a></li>
+    </ul>
     <div class="main_grid">
-    <div class="logo">
-      <img src="google_logo.png" width="400px"/>
-    </div>
-    <div class="search_bar">
-      <form class="search_form" action="index.html" method="post">
-        <input name="search" type="text">
-      </form>
-    </div>
+      <div class="logo">
+        <img id="photo" src="google_logo.png" width="400px"/>
+      </div>
+      <div class="search_bar">
+        <form class="search_form" action="index.html" method="post">
+          <input id="search_blank" name="search" type="text"/>
+          <input id="search_button" name="submit" type="submit" value="Search"/>
+        </form>
+      </div>
     </div>
   </body>
 </html>
